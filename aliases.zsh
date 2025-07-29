@@ -2,7 +2,7 @@
 #alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 alias reloadshell="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
-alias ll="/usr/local/opt/coreutils/libexec/gnubin/ls -AhlFo --color --group-directories-first"
+alias ll="ls -AhlFoG"
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
 alias pw='pwd | pbcopy'
@@ -36,17 +36,14 @@ alias unstage="git restore --staged ."
 alias wip="commit wip"
 
 # Projects
+alias projects='cd $HOME/projects'
+alias 27='cd $HOME/projects/27works'
 
-# AAF Project Shortcuts
-alias aaf-api='cd $HOME/projects/27works/appliedartforms/api && npm start'
-alias aaf-cdn='cd $HOME/projects/27works/appliedartforms/cdn && npm start'
-alias aaf-cms='cd $HOME/projects/27works/appliedartforms/admin && npm start'
-alias aaf-web='cd $HOME/projects/27works/appliedartforms/web && npm run dev'
-alias aaf='cd $HOME/projects/27works/appliedartforms && code . && aaf-api'
+# MongoDB
+alias mongo-start="brew services run mongodb-community"
+alias mongo-status="brew services list"
+alias mongo-stop="brew services stop mongodb-community"
 
-# SKH Project Shortcuts
-alias skh-api='cd $HOME/projects/27works/simonelli-hub/api && npm start'
-alias skh-cdn='cd $HOME/projects/27works/simonelli-hub/cdn && npm start'
-alias skh-cms='cd $HOME/projects/27works/simonelli-hub/admin && npm start'
-alias skh-web='cd $HOME/projects/27works/simonelli-hub/web && npm run dev'
-alias skh='cd $HOME/projects/27works/simonelli-hub && code . && skh-api'
+# GitHub
+alias githubtoken='cat /Users/james/Library/Mobile\ Documents/com\~apple\~CloudDocs/Documents/Tokens/GitHub.txt | pbcopy'
+
