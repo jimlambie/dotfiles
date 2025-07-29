@@ -90,4 +90,5 @@ mas 'NordVPN IKE', id: 1116599239
 mas 'iA Writer', id: 775737590
 mas 'DaisyDisk', id: 411643860
 mas 'Affinity Photo', id: 824183456
-mas 'Medis', id: 1063631769
+mas 'WhatsApp Messenger', id: 310633997
+mas 'Campermate', id: 465040067
