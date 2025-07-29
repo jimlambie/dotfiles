@@ -37,6 +37,7 @@ brew 'node'
 brew 'redis'
 brew 'yarn'
 brew 'supabase/tap/supabase'
+brew 'orbstack'
 
 # Apps
 cask 'chromium'
@@ -58,7 +59,6 @@ cask 'keka'
 #cask 'gpg-suite'
 #cask 'microsoft-teams'
 cask 'mongodb-compass'
-cask 'orbstack'
 cask 'pastebot'
 # cask 'paw'
 cask 'rapidapi'
@@ -98,4 +98,3 @@ mas 'Transporter', id: 1450874784
 mas 'Glucose Graph', id: 1668560499
 mas 'Apple Developer', id: 640199958
 mas '1password', id: 1333542190
-
