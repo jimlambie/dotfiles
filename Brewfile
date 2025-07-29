@@ -86,9 +86,16 @@ cask 'font-lato'
 
 # Mac App Store
 mas 'Clocker', id: 1056643111
-mas 'NordVPN IKE', id: 1116599239
+mas 'NordVPN', id: 905953485
 mas 'iA Writer', id: 775737590
 mas 'DaisyDisk', id: 411643860
 mas 'Affinity Photo', id: 824183456
 mas 'WhatsApp Messenger', id: 310633997
 mas 'Campermate', id: 465040067
+mas 'Zerion Wallet', id: 1456732565
+mas 'Silicio Mini Player', id: 933627574
+mas 'Transporter', id: 1450874784
+mas 'Glucose Graph', id: 1668560499
+mas 'Apple Developer', id: 640199958
+mas '1password', id: 1333542190
+
